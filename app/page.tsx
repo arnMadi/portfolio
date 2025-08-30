@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex gap-10 justify-around">
-      <div className=" lex flex-2">
-        <h1 className="text-3xl">Sites web professionnels, modernes et performants dès 180 $ seulement !</h1>
+    <div className="flex gap-10 justify-around my-10">
+      <div className="flex flex-col gap-7 rounded-xl p-7 border-1 flex-2 ml-22">
+        <h1 className="text-4xl font-semibold text-slate-700">Sites web professionnels, modernes et performants dès 180 $ seulement !</h1>
         <p>Obtenez un site complet, design sur mesure et optimisé pour convertir vos visiteurs en clients.</p>
         <ul>
           <li>
