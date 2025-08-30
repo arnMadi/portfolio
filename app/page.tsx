@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Portfolio from "@/components/mine/portfolio";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex-2"></div>
+      <Portfolio/>
     </div>
   );
 }
