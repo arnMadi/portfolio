@@ -1,4 +1,4 @@
-export default function Contact (){
+export default function Blog (){
 
     return(
         <div>
