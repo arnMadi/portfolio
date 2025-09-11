@@ -13,7 +13,7 @@ export default function Contact (){
 
     return(
         <div id="contact" className="mt-10 py-5 lg:px-22">
-            <h2 className="text-4xl  my-7 text-center">Contactez notre equipe</h2>
+            <h2 className="text-4xl  my-7 text-center">Contactez notre équipe</h2>
             <div className="flex flex-col lg:flex-row text-gray-800 bg-white lg:shadow-xl flex-col-reverse">
 
                 <div className="flex-2 p-10 flex p-4 flex-col text-center lg:text-left gap-3">
@@ -21,7 +21,7 @@ export default function Contact (){
                         Gagnez 10% de réduction
                     </h3>
                     <p className="">Rejoignez notre Base clients 
-                        et bénéficiez de jusqu'à <br /> 10% de réduction sur la première commande</p>
+                        et bénéficiez de jusqu&apos;à <br /> 10% de réduction sur la première commande</p>
                     {/* <Card className="">
                         <CardHeader className="flex-col lg:flex-row">
                             <CardTitle>Gardons contact</CardTitle>

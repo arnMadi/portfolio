@@ -1,5 +1,8 @@
 "use client";
 
+import { BiWorld } from "react-icons/bi";
+import { FaSmileBeam, FaStar } from "react-icons/fa";
+
 import Image from "next/image";
 import ceo from "../../public/ceo.jpg"
 import Link from "next/link";
@@ -12,23 +15,26 @@ export default function About (){
         <div className="flex flex-col gap-7  mt-7 px-5 xl:px-0" id="apropos">
             <h3 className="text-xl text-center">Nos objectifs cette année :</h3>
             <div id="notes" className="lg:flex-row md:justify-around px-10 flex flex-col gap-3">
-                <div className="p-5 rounded-full bg-green-200 ">
-                    <p className="font-semibold">⭐ 4,9/5 – Plus de 10 000 impacts</p>
+                <div className="p-5 rounded-full bg-green-200 flex items-center gap-2 justify-center">
+                    <FaStar className="w-7 h-7 text-green-500"/>
+                    <p className="font-semibold">4,9/5 – Plus de 500 projets</p>
                 </div>
-                <div className="p-5 rounded-full bg-orange-200">
-                    <p className="font-semibold">😊 1 000+ clients satisfaits</p>
+                <div className="p-5 rounded-full bg-orange-200 flex items-center gap-2 justify-center">
+                    <FaSmileBeam className="w-7 h-7 text-yellow-500"/>
+                    <p className="font-semibold"> 1 000+ clients satisfaits</p>
                 </div>
-                <div className="p-5 rounded-full bg-violet-200">
-                    <p className="font-semibold">🌍 Présent à l'internationnal</p>
+                <div className="p-5 rounded-full bg-violet-200 flex items-center gap-2 justify-center">
+                    <BiWorld className="w-7 h-7 text-violet-500"/>
+                    <p className="font-semibold"> Présent à l&apos;internationnal</p>
                 </div>
             </div>
             <h2 className="text-4xl text-center">Qui sommes-nous ?</h2>
             <div className="flex flex-col items-center gap-3 bg-violet-100  p-15 rounded-3xl">
                 <h2 className="text-lg">
                     "Fondés en 2022, nous développons des services et solutions digitales qui permettent <span className="font-semibold">aux 
-                    entreprises</span> et <span className="font-semibold">entrepreneurs</span> de <span className="font-semibold">booster leurs chiffres</span> à l’échelle locale, nationale, 
-                    continentale et internationale.<br/> Nous proposons une gamme complète de prestations digitales comprenant : la création de sites web et d’applications mobiles, le community management, 
-                    la conception d’identités visuelles et de supports graphiques, ainsi que l’accompagnement en stratégie digitale. <br/> Notre mission est d’offrir des solutions innovantes, 
+                    entreprises</span> et <span className="font-semibold">entrepreneurs</span> de <span className="font-semibold">booster leurs chiffres</span> à l&apos;échelle locale, nationale, 
+                    continentale et internationale.<br/> Nous proposons une gamme complète de prestations digitales comprenant : la création de sites web et d&apos;applications mobiles, le community management, 
+                    la conception d&apos;identités visuelles et de supports graphiques, ainsi que l&apos;accompagnement en stratégie digitale. <br/> Notre mission est d&apos;offrir des solutions innovantes, 
                     adaptées et évolutives pour aider nos clients à atteindre leurs objectifs de croissance et de visibilité."
                 </h2>
                 <Link href="https://arndev.dartistes.com" target="_blank">

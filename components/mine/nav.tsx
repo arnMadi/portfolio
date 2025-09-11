@@ -7,17 +7,8 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 
 import {
   Collapsible,
@@ -25,7 +16,6 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible"
 
-import { IconButton } from '@material-tailwind/react';
 
 import Link from "next/link";
 import Image from 'next/image';
@@ -49,7 +39,7 @@ export default function Nav (){
             <Collapsible    className='mt-2 lg:hidden '
                             open={isOpen}
                             onOpenChange={setIsOpen}>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center">
                     <div className="logo">
                     <Image
                     alt='The logo of dartistes.com'
@@ -57,9 +47,7 @@ export default function Nav (){
                     width = {150}
                     height={50}/>
                     </div>
-                    <Button className='hidden lg:flex rounded-3xl p-5'>
-                        <Link href='/'>Commandez</Link>
-                    </Button>
+                    
 
                     <CollapsibleTrigger onClick={()=>setIsOpen(true)} className='flex flex-col gap-1'>
                         <span
@@ -83,8 +71,17 @@ export default function Nav (){
                 </div>
                 
 
-                <CollapsibleContent className=''>
+                <CollapsibleContent className='mt-5'>
                     <ul className="flex flex-col gap-5 mt-2 font-semibold text-slate-700 text-center">
+                        <li>
+                            <Link href="https://wa.me/+243825690001?text=Salut%2C%20je%20suis%20interress%C3%A9(e)%20par%20vos%20service%20et%20j%27aimerais%20savoir%20plus%20sur%20%3A"
+                            target='_blank' onClick={()=> setIsOpen(false)}>
+                                <Button className=' lg:flex rounded-3xl p-5'>
+                                    Commandez
+                                </Button>
+                            </Link>
+                        </li>
+
                         <li>
                             <Link href='/'className='hover:text-blue-500'
                             onClick={()=> setIsOpen(false)}>Accueil</Link>
@@ -211,7 +208,8 @@ export default function Nav (){
                 </li> */}
             </ul>
             <Button className='hidden lg:flex rounded-3xl p-5'>
-                <Link href='/'>Commandez</Link>
+                <Link href="https://wa.me/+243825690001?text=Salut%2C%20je%20suis%20interress%C3%A9(e)%20par%20vos%20service%20et%20j%27aimerais%20savoir%20plus%20sur%20%3A"
+                target='_blank'>Commandez</Link>
             </Button>
         </nav>
     )

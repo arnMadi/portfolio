@@ -20,7 +20,7 @@ export default function Faq (){
                 defaultValue="item-1"
                 >
                     <AccordionItem value="item-1" className="p-5 rounded-4xl bg-blue-50">
-                        <AccordionTrigger>À qui s'adresse ce service ?</AccordionTrigger>
+                        <AccordionTrigger>À qui s&apos;adresse ce service ?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                         <p>
                             Nous sommes au service des marques, des produits et des services qui veulent 
@@ -41,7 +41,7 @@ export default function Faq (){
                             
                         </p>
                         <p>
-                           C'est en alliant une qualité irréprochable et un prix juste que nous nous distinguons.
+                           C&apos;est en alliant une qualité irréprochable et un prix juste que nous nous distinguons.
                         </p>
                         </AccordionContent>
                     </AccordionItem>
@@ -53,23 +53,23 @@ export default function Faq (){
                             Nos prestations sont livrées sous 72 heures.
                         </p>
                         <p>
-                            C'est la promesse d'un travail soigné. Nous prenons le temps nécessaire 
+                            C&apos;est la promesse d&apos;un travail soigné. Nous prenons le temps nécessaire 
                             pour que votre projet (site web, logo, etc.) soit parfait, sans sacrifier 
-                            les finitions. Nous nous distinguons des solutions basées sur l'IA ou 
-                            d'autres services ultra-rapides en vous offrant une qualité irréprochable 
+                            les finitions. Nous nous distinguons des solutions basées sur l&apos;IA ou 
+                            d&apos;autres services ultra-rapides en vous offrant une qualité irréprochable 
                             et un service personnalisé.
                         </p>
                         </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-5" className="p-5 rounded-4xl bg-blue-50">
-                        <AccordionTrigger>Pourquoi ne pas se contenter de l'IA ?</AccordionTrigger>
+                        <AccordionTrigger>Pourquoi ne pas se contenter de l&apos;IA ?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                         <p>
-                            L'intelligence artificielle est un excellent point de départ pour une ébauche. 
-                            Cependant, pour une marque qui a l'ambition de durer, se démarquer et véhiculer 
-                            une vision authentique et puissante, rien ne remplace la création d'un logo unique 
-                            et sur-mesure. C'est la différence entre un visuel généré parmi des milliers d'autres 
+                            L&apos;intelligence artificielle est un excellent point de départ pour une ébauche. 
+                            Cependant, pour une marque qui a l&apos;ambition de durer, se démarquer et véhiculer 
+                            une vision authentique et puissante, rien ne remplace la création d&apos;un logo unique 
+                            et sur-mesure. C&apos;est la différence entre un visuel généré parmi des milliers d&apos;autres 
                             et une identité visuelle qui vous appartient pleinement.
                         </p>
                         
@@ -80,12 +80,12 @@ export default function Faq (){
                         <AccordionTrigger>Comment livrez-vous des sites web de qualité en seulement 72 heures ?</AccordionTrigger>
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                         <p>
-                            Notre secret réside dans l'efficacité. Nous collaborons avec un réseau d'experts, 
-                            chacun ayant plusieurs années d'expérience dans son domaine. Grâce à des processus 
+                            Notre secret réside dans l&apos;efficacité. Nous collaborons avec un réseau d&apos;experts, 
+                            chacun ayant plusieurs années d&apos;expérience dans son domaine. Grâce à des processus 
                             optimisés et une collaboration fluide, nous allons droit au but. 
                         </p>
                         <p>
-                            Nous éliminons les réunions superflues et le "blabla" pour nous concentrer sur l'essentiel : 
+                            Nous éliminons les réunions superflues et le "blabla" pour nous concentrer sur l&apos;essentiel : 
                             créer une présence en ligne percutante qui vous démarque réellement.
                         </p>
                         </AccordionContent>
@@ -119,7 +119,7 @@ export default function Faq (){
                         <AccordionContent className="flex flex-col gap-4 text-balance">
                         <p>
                             Une fois votre site publié et le paiement final effectué, nous vous proposons un service de gestion 
-                            et de maintenance à faible coût. Ce service, qui inclut les frais d'hébergement, 
+                            et de maintenance à faible coût. Ce service, qui inclut les frais d&apos;hébergement, 
                             vous permet de ne pas vous soucier des mises à jour et des éventuels problèmes techniques.
                         </p>
                         

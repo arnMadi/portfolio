@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Logoneg from "../../public/logo_negatif.png"
 
-import { FaFacebook, FaLinkedin, FaInstagram, FaLinkedinIn, FaWhatsapp, FaPhoneVolume, FaMailBulk, FaTwitter} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa';
 
 
 export default function Footer (){

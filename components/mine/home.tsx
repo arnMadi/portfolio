@@ -1,12 +1,8 @@
 "use client";
 
-
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { CheckIcon } from '@heroicons/react/24/solid'
-
-import hero from "../../public/hero.png"
 
 
 
@@ -49,7 +45,7 @@ export default function Home() {
                     </Button>
                     </div>
                     <div>
-                    <h3>Nos equipes sont qualifiées et certifiées par les plus grands de l'industrie :</h3>
+                    <h3>Nos equipes sont qualifiées et certifiées par les plus grands de l&apos;industrie :</h3>
                 </div>
             </div>
             <div className="flex-2 bg-cover bg-center bg-no-repeat rounded-4xl overflow-hidden">
