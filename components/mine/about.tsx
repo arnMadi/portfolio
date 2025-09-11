@@ -31,11 +31,11 @@ export default function About (){
             <h2 className="text-4xl text-center">Qui sommes-nous ?</h2>
             <div className="flex flex-col items-center gap-3 bg-violet-100  p-15 rounded-3xl">
                 <h2 className="text-lg">
-                    "Fondés en 2022, nous développons des services et solutions digitales qui permettent <span className="font-semibold">aux 
+                    &quot;Fondés en 2022, nous développons des services et solutions digitales qui permettent <span className="font-semibold">aux 
                     entreprises</span> et <span className="font-semibold">entrepreneurs</span> de <span className="font-semibold">booster leurs chiffres</span> à l&apos;échelle locale, nationale, 
                     continentale et internationale.<br/> Nous proposons une gamme complète de prestations digitales comprenant : la création de sites web et d&apos;applications mobiles, le community management, 
                     la conception d&apos;identités visuelles et de supports graphiques, ainsi que l&apos;accompagnement en stratégie digitale. <br/> Notre mission est d&apos;offrir des solutions innovantes, 
-                    adaptées et évolutives pour aider nos clients à atteindre leurs objectifs de croissance et de visibilité."
+                    adaptées et évolutives pour aider nos clients à atteindre leurs objectifs de croissance et de visibilité.&quot;
                 </h2>
                 <Link href="https://arndev.dartistes.com" target="_blank">
                     <div className="flex align-center items-center gap-3">

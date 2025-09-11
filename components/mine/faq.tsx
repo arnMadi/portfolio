@@ -85,7 +85,7 @@ export default function Faq (){
                             optimisés et une collaboration fluide, nous allons droit au but. 
                         </p>
                         <p>
-                            Nous éliminons les réunions superflues et le "blabla" pour nous concentrer sur l&apos;essentiel : 
+                            Nous éliminons les réunions superflues et le &quot;blabla&quot; pour nous concentrer sur l&apos;essentiel : 
                             créer une présence en ligne percutante qui vous démarque réellement.
                         </p>
                         </AccordionContent>

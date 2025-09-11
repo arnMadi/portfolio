@@ -2,7 +2,6 @@ import About from "@/components/mine/about";
 import Contact from "@/components/mine/contacts";
 import Faq from "@/components/mine/faq";
 import Home from "@/components/mine/home";
-import Portfolio from "@/components/mine/portfolio";
 import Pricing from "@/components/mine/pricing";
 import Process from "@/components/mine/process";
 import Services from "@/components/mine/services";

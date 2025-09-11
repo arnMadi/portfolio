@@ -20,7 +20,7 @@ import {
 import Link from "next/link";
 import Image from 'next/image';
 
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 
 
 export default function Nav (){
