@@ -95,7 +95,7 @@ export default function Nav (){
                             <DropdownMenu>
                                 <DropdownMenuTrigger >
                                     <Link href='#services' className='hover:text-blue-500'
-                                    onClick={()=> setIsCollapsed(true)}>Services & Pricing</Link>
+                                    >Services & Pricing</Link>
                                 </DropdownMenuTrigger>
 
                                 <DropdownMenuContent  >
