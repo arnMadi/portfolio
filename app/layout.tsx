@@ -15,8 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D'artistes | Agence de Web & Communication Visuelle",
-  description: "D'artistes est une agence de design spécialisée en identité visuelle, branding et création de sites web. Nous transformons vos idées en créations artistiques percutantes pour votre marque.",
+  description: "Arndev, Arnold Madi est un developpeur mobile et web fullstack basé à Kinshasa , RD Congo",
 };
 
 export default function RootLayout({
@@ -30,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Nav/>
-        <main className=" flex flex-col gap-10 text-gray-900">
+        <main className=" flex flex-col gap-10 text-foreground">
           {children}
         </main>
         <Footer/>
